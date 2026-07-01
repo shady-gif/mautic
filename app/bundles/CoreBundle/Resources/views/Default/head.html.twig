@@ -4,12 +4,12 @@
         {% if headerTitle is defined and headerTitle is not empty %}
             {{ headerTitle|replace({'<': ' <'})|striptags|purify }} |
         {% endif %}
-        {{ pageTitle|default('Mautic') }}
+        {{ pageTitle|default('Shadyy Signal') }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/x-icon" href="{{ getOverridableUrl('images/favicon.ico') }}" />
-    <link rel="icon" sizes="192x192" href="{{ getOverridableUrl('images/favicon.ico') }}">
-    <link rel="apple-touch-icon" href="{{ getOverridableUrl('images/apple-touch-icon.png') }}" />
+    <link rel="icon" type="image/svg+xml" href="{{ getOverridableUrl('images/shadyy-signal-icon.svg') }}" />
+    <link rel="icon" sizes="192x192" href="{{ getOverridableUrl('images/shadyy-signal-icon.svg') }}">
+    <link rel="apple-touch-icon" href="{{ getOverridableUrl('images/shadyy-signal-icon.svg') }}" />
 
     {{ importmap('app') }}
     {{ outputSystemStylesheets() }}

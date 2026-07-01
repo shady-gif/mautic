@@ -63,7 +63,7 @@ Mautic.openMediaManager = function() {
  */
 Mautic.sanitizeHtmlBeforeSave = function(htmlContent) {
     // Remove Mautic's assets
-    htmlContent.find('[data-source="mautic"]').remove();
+    htmlContent.find('[data-source="mautic"], [data-source="shadyy-signal"]').remove();
     htmlContent.find('.atwho-container').remove();
     htmlContent.find('.fr-image-overlay, .fr-quick-insert, .fr-tooltip, .fr-toolbar, .fr-popup, .fr-image-resizer').remove();
 

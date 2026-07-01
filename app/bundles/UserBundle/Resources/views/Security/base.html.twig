@@ -3,11 +3,11 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>{% block pageTitle %}Mautic{% endblock %}</title>
+    <title>{% block pageTitle %}Shadyy Signal{% endblock %}</title>
     <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" type="image/x-icon" href="{{ getOverridableUrl('images/favicon.ico') }}" />
-    <link rel="apple-touch-icon" href="{{ getOverridableUrl('images/apple-touch-icon.png') }}" />
+    <link rel="icon" type="image/svg+xml" href="{{ getOverridableUrl('images/shadyy-signal-icon.svg') }}" />
+    <link rel="apple-touch-icon" href="{{ getOverridableUrl('images/shadyy-signal-icon.svg') }}" />
     {{ importmap('app') }}
     {{ outputSystemStylesheets() }}
     {{- include('@MauticCore/Default/script.html.twig') -}}
@@ -20,7 +20,7 @@
             <div class="col-lg-4 col-lg-offset-4">
                 <div class="panel" name="form-login">
                     <div class="panel-body">
-                        <div class="mautic-logo img-circle mb-md text-center">
+                        <div class="mautic-logo img-circle mb-md text-center" aria-label="Shadyy Signal">
                             {{ source('@MauticCore/Assets/images/logo--minimized.svg') }}
                         </div>
                         <div id="main-panel-flash-msgs">

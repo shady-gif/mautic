@@ -400,6 +400,12 @@ code:hover > .copy-icon {
     }
   }
 
+  > svg.shadyy-signal-mark {
+    width: $mautic-logo-figure-width;
+    height: $header-height;
+    vertical-align: top;
+  }
+
   // mautic logo text
   > svg.mautic-logo-text {
     height: $header-height;
@@ -407,6 +413,12 @@ code:hover > .copy-icon {
     .m,.a,.u,.t,.i,.c {
       fill: $mautic-logo-text-fill
     }
+  }
+
+  > svg.shadyy-signal-logo {
+    height: $header-height;
+    width: $mautic-logo-text-width;
+    vertical-align: top;
   }
 }
 
