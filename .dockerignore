@@ -1,0 +1,12 @@
+.git
+.github
+.ddev
+.devcontainer
+node_modules
+vendor
+var/cache
+var/logs
+media/files
+media/images
+.env.local
+.env.test.local
